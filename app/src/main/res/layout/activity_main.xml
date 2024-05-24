@@ -1,0 +1,42 @@
+<!-- res/layout/activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Button to create a new advert -->
+    <Button
+        android:id="@+id/btn_create_advert"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="CREATE A NEW ADVERT"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:elevation="4dp"
+        android:layout_gravity="center" />
+
+    <!-- Button to show all lost & found items -->
+    <Button
+        android:id="@+id/btn_show_lost_found"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="SHOW ALL LOST and FOUND ITEMS"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:elevation="4dp"
+        android:layout_gravity="center" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_map"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="SHOW ON MAP"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:elevation="4dp"
+        android:layout_gravity="center" />
+</LinearLayout>
